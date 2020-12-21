@@ -282,3 +282,617 @@ Processing by Devise::RegistrationsController#new as HTML
 Completed 200 OK in 172ms (Views: 146.8ms | ActiveRecord: 0.7ms)
 
 
+Started GET "/" for 106.163.155.56 at 2020-12-21 14:09:02 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (308.4ms)
+Completed 500 Internal Server Error in 322ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery.jpostal' with type 'application/javascript'
+Checked in these paths: 
+  /home/ec2-user/environment/bookers2/app/assets/config
+  /home/ec2-user/environment/bookers2/app/assets/images
+  /home/ec2-user/environment/bookers2/app/assets/javascripts
+  /home/ec2-user/environment/bookers2/app/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/bundler/gems/refile-46b4178654e6/app/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actioncable-5.2.4.4/lib/assets/compiled
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activestorage-5.2.4.4/app/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actionview-5.2.4.4/lib/assets/compiled
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/ec2-user/environment/bookers2/node_modules
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/popper_js-1.16.0/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.5.3/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.5.3/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/font-awesome-sass-5.15.1/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/font-awesome-sass-5.15.1/assets/fonts):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7:     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    11: 
+  
+app/assets/javascripts/application.js:22
+app/views/homes/top.html.erb:8:in `_app_views_homes_top_html_erb__1603967930550306962_70049877794600'
+Started GET "/" for 106.163.155.56 at 2020-12-21 14:09:05 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (71.1ms)
+Completed 500 Internal Server Error in 78ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery.jpostal' with type 'application/javascript'
+Checked in these paths: 
+  /home/ec2-user/environment/bookers2/app/assets/config
+  /home/ec2-user/environment/bookers2/app/assets/images
+  /home/ec2-user/environment/bookers2/app/assets/javascripts
+  /home/ec2-user/environment/bookers2/app/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/bundler/gems/refile-46b4178654e6/app/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actioncable-5.2.4.4/lib/assets/compiled
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activestorage-5.2.4.4/app/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actionview-5.2.4.4/lib/assets/compiled
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/ec2-user/environment/bookers2/node_modules
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/popper_js-1.16.0/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.5.3/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.5.3/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/font-awesome-sass-5.15.1/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/font-awesome-sass-5.15.1/assets/fonts):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7:     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    11: 
+  
+app/assets/javascripts/application.js:22
+app/views/homes/top.html.erb:8:in `_app_views_homes_top_html_erb__1603967930550306962_70049826764940'
+Started GET "/" for 106.163.155.56 at 2020-12-21 14:10:11 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (189.9ms)
+Completed 500 Internal Server Error in 209ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery.jpostal' with type 'application/javascript'
+Checked in these paths: 
+  /home/ec2-user/environment/bookers2/app/assets/config
+  /home/ec2-user/environment/bookers2/app/assets/images
+  /home/ec2-user/environment/bookers2/app/assets/javascripts
+  /home/ec2-user/environment/bookers2/app/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/bundler/gems/refile-46b4178654e6/app/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actioncable-5.2.4.4/lib/assets/compiled
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activestorage-5.2.4.4/app/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actionview-5.2.4.4/lib/assets/compiled
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/ec2-user/environment/bookers2/node_modules
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/popper_js-1.16.0/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.5.3/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.5.3/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/font-awesome-sass-5.15.1/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/font-awesome-sass-5.15.1/assets/fonts):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7:     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    11: 
+  
+app/assets/javascripts/application.js:19
+app/views/homes/top.html.erb:8:in `_app_views_homes_top_html_erb__1603967930550306962_70049824668920'
+Started GET "/" for 106.163.155.56 at 2020-12-21 14:10:51 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (502.7ms)
+Completed 500 Internal Server Error in 520ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery.jpostal' with type 'application/javascript'
+Checked in these paths: 
+  /home/ec2-user/environment/bookers2/app/assets/config
+  /home/ec2-user/environment/bookers2/app/assets/images
+  /home/ec2-user/environment/bookers2/app/assets/javascripts
+  /home/ec2-user/environment/bookers2/app/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/bundler/gems/refile-46b4178654e6/app/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actioncable-5.2.4.4/lib/assets/compiled
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activestorage-5.2.4.4/app/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actionview-5.2.4.4/lib/assets/compiled
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/ec2-user/environment/bookers2/node_modules
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/popper_js-1.16.0/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.5.3/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.5.3/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/font-awesome-sass-5.15.1/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/font-awesome-sass-5.15.1/assets/fonts):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7:     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    11: 
+  
+app/assets/javascripts/application.js:19
+app/views/homes/top.html.erb:8:in `_app_views_homes_top_html_erb__1936847235135783761_70112557483520'
+Started GET "/" for 106.163.155.56 at 2020-12-21 14:10:54 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (70.8ms)
+Completed 500 Internal Server Error in 77ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery.jpostal' with type 'application/javascript'
+Checked in these paths: 
+  /home/ec2-user/environment/bookers2/app/assets/config
+  /home/ec2-user/environment/bookers2/app/assets/images
+  /home/ec2-user/environment/bookers2/app/assets/javascripts
+  /home/ec2-user/environment/bookers2/app/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/bundler/gems/refile-46b4178654e6/app/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actioncable-5.2.4.4/lib/assets/compiled
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activestorage-5.2.4.4/app/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actionview-5.2.4.4/lib/assets/compiled
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/ec2-user/environment/bookers2/node_modules
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/popper_js-1.16.0/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.5.3/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.5.3/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/font-awesome-sass-5.15.1/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/font-awesome-sass-5.15.1/assets/fonts):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7:     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    11: 
+  
+app/assets/javascripts/application.js:19
+app/views/homes/top.html.erb:8:in `_app_views_homes_top_html_erb__1936847235135783761_70112504947840'
+Started GET "/" for 106.163.155.56 at 2020-12-21 14:12:45 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (5641.1ms)
+Completed 200 OK in 5657ms (Views: 5656.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 106.163.155.56 at 2020-12-21 14:12:53 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.6ms)
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (78.4ms)
+Completed 200 OK in 239ms (Views: 211.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 106.163.155.56 at 2020-12-21 14:23:53 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (1318.1ms)
+Completed 200 OK in 1341ms (Views: 1333.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 106.163.155.56 at 2020-12-21 14:23:56 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (45.4ms)
+Completed 200 OK in 59ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 106.163.155.56 at 2020-12-21 14:23:58 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.4ms)
+  Rendered devise/shared/_links.html.erb (2.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 104ms (Views: 87.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 106.163.155.56 at 2020-12-21 14:33:36 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (68.6ms)
+Completed 200 OK in 101ms (Views: 99.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 106.163.155.56 at 2020-12-21 14:33:38 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.4ms)
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 43ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 106.163.155.56 at 2020-12-21 14:33:51 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nlsh8tA6l0uE6HFELCnzFkATYE6k7mfiKxI7aqbfGh5TBSDKEI7Fm71J+ySCqVSBZSEPj2erksblhGkfZTqbfg==", "user"=>{"name"=>"tkk", "email"=>"takako.k828@gmail.com", "postcode"=>"3660012", "prefecture_code"=>"", "address_street"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "address_city"=>{"{:autofocus=>true, :placeholder=>\"address_city\", :class=>\"address\", :id=>\"address_city\"}"=>""}, "address_building"=>{"{:autofocus=>true, :placeholder=>\"address_building\", :class=>\"address\"}"=>""}, "commit"=>"Sign up"}
+Unpermitted parameter: :prefecture_code
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "takako.k828@gmail.com"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "tkk"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.9ms)
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 93ms (Views: 43.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 106.163.155.56 at 2020-12-21 14:36:25 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (1234.4ms)
+Completed 200 OK in 1258ms (Views: 1249.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 106.163.155.56 at 2020-12-21 14:36:26 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (35.1ms)
+Completed 200 OK in 62ms (Views: 60.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 106.163.155.56 at 2020-12-21 14:36:28 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.4ms)
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 64ms (Views: 47.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 106.163.155.56 at 2020-12-21 14:37:52 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (312.0ms)
+Completed 500 Internal Server Error in 326ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery.jpostal' with type 'application/javascript'
+Checked in these paths: 
+  /home/ec2-user/environment/bookers2/app/assets/config
+  /home/ec2-user/environment/bookers2/app/assets/images
+  /home/ec2-user/environment/bookers2/app/assets/javascripts
+  /home/ec2-user/environment/bookers2/app/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/bundler/gems/refile-46b4178654e6/app/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actioncable-5.2.4.4/lib/assets/compiled
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activestorage-5.2.4.4/app/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actionview-5.2.4.4/lib/assets/compiled
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/ec2-user/environment/bookers2/node_modules
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/popper_js-1.16.0/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.5.3/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.5.3/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/font-awesome-sass-5.15.1/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/font-awesome-sass-5.15.1/assets/fonts):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7:     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    11: 
+  
+app/assets/javascripts/application.js:22
+app/views/homes/top.html.erb:8:in `_app_views_homes_top_html_erb__1564763219008996606_70089841122980'
+Started GET "/" for 106.163.155.56 at 2020-12-21 14:37:55 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (74.9ms)
+Completed 500 Internal Server Error in 81ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery.jpostal' with type 'application/javascript'
+Checked in these paths: 
+  /home/ec2-user/environment/bookers2/app/assets/config
+  /home/ec2-user/environment/bookers2/app/assets/images
+  /home/ec2-user/environment/bookers2/app/assets/javascripts
+  /home/ec2-user/environment/bookers2/app/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/bundler/gems/refile-46b4178654e6/app/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actioncable-5.2.4.4/lib/assets/compiled
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activestorage-5.2.4.4/app/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actionview-5.2.4.4/lib/assets/compiled
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/ec2-user/environment/bookers2/node_modules
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/popper_js-1.16.0/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.5.3/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.5.3/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/font-awesome-sass-5.15.1/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/font-awesome-sass-5.15.1/assets/fonts):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7:     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    11: 
+  
+app/assets/javascripts/application.js:22
+app/views/homes/top.html.erb:8:in `_app_views_homes_top_html_erb__1564763219008996606_70089790081560'
+Started GET "/" for 106.163.155.56 at 2020-12-21 14:49:26 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (256.1ms)
+Completed 500 Internal Server Error in 269ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery.jpostal' with type 'application/javascript'
+Checked in these paths: 
+  /home/ec2-user/environment/bookers2/app/assets/config
+  /home/ec2-user/environment/bookers2/app/assets/images
+  /home/ec2-user/environment/bookers2/app/assets/javascripts
+  /home/ec2-user/environment/bookers2/app/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/bundler/gems/refile-46b4178654e6/app/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actioncable-5.2.4.4/lib/assets/compiled
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activestorage-5.2.4.4/app/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actionview-5.2.4.4/lib/assets/compiled
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/ec2-user/environment/bookers2/node_modules
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/popper_js-1.16.0/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.5.3/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.5.3/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/font-awesome-sass-5.15.1/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/font-awesome-sass-5.15.1/assets/fonts):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7:     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    11: 
+  
+app/assets/javascripts/application.js:22
+app/views/homes/top.html.erb:8:in `_app_views_homes_top_html_erb___2736033881127721893_70242715010260'
+Started GET "/" for 106.163.155.56 at 2020-12-21 14:49:28 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (69.6ms)
+Completed 500 Internal Server Error in 75ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery.jpostal' with type 'application/javascript'
+Checked in these paths: 
+  /home/ec2-user/environment/bookers2/app/assets/config
+  /home/ec2-user/environment/bookers2/app/assets/images
+  /home/ec2-user/environment/bookers2/app/assets/javascripts
+  /home/ec2-user/environment/bookers2/app/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/bundler/gems/refile-46b4178654e6/app/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actioncable-5.2.4.4/lib/assets/compiled
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activestorage-5.2.4.4/app/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actionview-5.2.4.4/lib/assets/compiled
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/ec2-user/environment/bookers2/node_modules
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/popper_js-1.16.0/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.5.3/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.5.3/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/font-awesome-sass-5.15.1/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/font-awesome-sass-5.15.1/assets/fonts):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7:     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    11: 
+  
+app/assets/javascripts/application.js:22
+app/views/homes/top.html.erb:8:in `_app_views_homes_top_html_erb___2736033881127721893_70242730501400'
+Started GET "/" for 106.163.155.56 at 2020-12-21 14:50:54 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (258.2ms)
+Completed 500 Internal Server Error in 272ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery.jpostal' with type 'application/javascript'
+Checked in these paths: 
+  /home/ec2-user/environment/bookers2/app/assets/config
+  /home/ec2-user/environment/bookers2/app/assets/images
+  /home/ec2-user/environment/bookers2/app/assets/javascripts
+  /home/ec2-user/environment/bookers2/app/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/bundler/gems/refile-46b4178654e6/app/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actioncable-5.2.4.4/lib/assets/compiled
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activestorage-5.2.4.4/app/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actionview-5.2.4.4/lib/assets/compiled
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/ec2-user/environment/bookers2/node_modules
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/popper_js-1.16.0/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.5.3/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.5.3/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/font-awesome-sass-5.15.1/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/font-awesome-sass-5.15.1/assets/fonts):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7:     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    11: 
+  
+app/assets/javascripts/application.js:22
+app/views/homes/top.html.erb:8:in `_app_views_homes_top_html_erb___406090906490654535_69985822030800'
+Started GET "/" for 106.163.155.56 at 2020-12-21 14:50:57 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (70.5ms)
+Completed 500 Internal Server Error in 74ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery.jpostal' with type 'application/javascript'
+Checked in these paths: 
+  /home/ec2-user/environment/bookers2/app/assets/config
+  /home/ec2-user/environment/bookers2/app/assets/images
+  /home/ec2-user/environment/bookers2/app/assets/javascripts
+  /home/ec2-user/environment/bookers2/app/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/bundler/gems/refile-46b4178654e6/app/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actioncable-5.2.4.4/lib/assets/compiled
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activestorage-5.2.4.4/app/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/actionview-5.2.4.4/lib/assets/compiled
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/ec2-user/environment/bookers2/node_modules
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/popper_js-1.16.0/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.5.3/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.5.3/assets/javascripts
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/font-awesome-sass-5.15.1/assets/stylesheets
+  /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/font-awesome-sass-5.15.1/assets/fonts):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7:     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    11: 
+  
+app/assets/javascripts/application.js:22
+app/views/homes/top.html.erb:8:in `_app_views_homes_top_html_erb___406090906490654535_69985769636440'
+Started GET "/" for 106.163.155.56 at 2020-12-21 14:55:36 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (1900.3ms)
+Completed 200 OK in 1933ms (Views: 1924.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 106.163.155.56 at 2020-12-21 14:55:40 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (64.3ms)
+Completed 200 OK in 86ms (Views: 83.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 106.163.155.56 at 2020-12-21 14:55:42 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.4ms)
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 80ms (Views: 63.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 106.163.155.56 at 2020-12-21 14:56:55 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (62.5ms)
+Completed 200 OK in 83ms (Views: 81.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 106.163.155.56 at 2020-12-21 14:56:57 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.4ms)
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 60ms (Views: 59.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 106.163.155.56 at 2020-12-21 14:58:06 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (1175.2ms)
+Completed 200 OK in 1207ms (Views: 1198.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 106.163.155.56 at 2020-12-21 14:58:09 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (52.2ms)
+Completed 200 OK in 83ms (Views: 82.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 106.163.155.56 at 2020-12-21 14:58:10 +0000
+Cannot render console from 106.163.155.56! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.4ms)
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 97ms (Views: 81.2ms | ActiveRecord: 0.8ms)
+
+
