@@ -1,4 +1,4 @@
-$(function() {
+jQuery(function($) {
   return $('#user_postcode').jpostal({
     postcode: ['#user_postcode'],
     address: {
